@@ -1,6 +1,4 @@
 from mathlib import *
-# from dataclasses import dataclass
-
 
 class Light(object):
   def __init__(self, position=V3(0,0,0), intensity=1):

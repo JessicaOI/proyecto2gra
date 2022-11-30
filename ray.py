@@ -135,7 +135,7 @@ r.scene = [
   Pyramid([V3(-2, -1, -10), V3(1.2, 1.5, -5), V3(5, -1, -8), V3(0.5, -1, -7.5)], brown),
   Cube(V3(0, -8, -15), 15, darkbrown),
   #oro
-  Cube(V3(3, 0.5, -4), 0.6, yellow),
+  Cube(V3(3, 0, -4), 0.6, yellow),
   #nube
   Sphere(V3(7, 5.5, -13 ), 0.6, white),
   Sphere(V3(4, 5.5, -13 ), 0.6, white),
