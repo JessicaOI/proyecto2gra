@@ -102,10 +102,6 @@ def word(w):
 def dword(d):
   return struct.pack('=l', d)
 
-# ===============================================================
-# BMP
-# ===============================================================
-
 def writebmp(filename, width, height, pixels):
   f = open(filename, 'bw')
 
@@ -134,10 +130,6 @@ def writebmp(filename, width, height, pixels):
     for y in range(width):
       f.write(pixels[x][y].toBytes())
   f.close()
-
-# ===============================================================
-# COLOR CLASS
-# ===============================================================
 
 class color(object):
   def __init__(self, r, g, b):
